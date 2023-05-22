@@ -1,5 +1,6 @@
 #ifndef RAYH
 #define RAYH
+
 #include "vec3.cpp"
 
 class ray{

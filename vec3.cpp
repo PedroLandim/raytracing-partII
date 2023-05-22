@@ -25,10 +25,10 @@ public:
     inline vec3& operator*=(const float t);
     inline vec3& operator/=(const float t);
 
-    inline float lenght() const {
+    inline float length() const {
         return sqrt(e[0]*e[0] + e[1]*e[1] + e[2]*e[2]);
     }
-    inline float squared_lenght() const {
+    inline float squared_length() const {
         return e[0]*e[0] + e[1]*e[1] + e[2]*e[2];
     }
     inline void make_unit_vector();
@@ -134,7 +134,7 @@ inline vec3& vec3::operator/=(const float t){
 }
 
 inline vec3 unit_vector(vec3 v){
-    return v / v.lenght();
+    return v / v.length();
 }
 
 

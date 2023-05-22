@@ -1,3 +1,3 @@
 # raytracing-partII
 
-![ray tracer](raytracing-partII\imagens\capa.png)
+![ray tracer](imagens/capa.png)
